@@ -18,7 +18,7 @@ Where continent is not null
 order by 1,2
 
 
- Total Cases vs Total Deaths : Likelihood of death if covid is contracted
+--Total Cases vs Total Deaths : Likelihood of death if covid is contracted
 
 
 Select [location],[date],[total_cases],[total_deaths],([total_deaths]/[total_cases])*100 as DeathPercentage 
